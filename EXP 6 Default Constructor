@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+class my
+{
+    public:
+    my()
+    {
+        cout<<"default constructor called";
+    }
+};
+int main()
+{
+    my m;
+    return 0;
+}
