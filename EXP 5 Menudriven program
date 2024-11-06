@@ -1,0 +1,47 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int choice;
+    int a,b,r;
+    cout<<"Menu\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Exit";
+    cout<<"\nEnter our Choice between 1 to 5 :";
+    cin>>choice;
+    
+    cout<<"Enter Two number:";
+    cin>>a>>b;
+    
+    switch(choice)
+    {
+        case 1:
+        r=a+b;
+        cout<<"Addition is:"<<r;
+        break;
+        
+        case 2:
+        r=a-b;
+        cout<<"Substraction is:"<<r;
+        break;
+        
+        case 3:
+        r=a*b;
+        cout<<"Multiplication is:"<<r;
+        break;
+        
+        case 4:
+        r=a/b;
+        cout<<"Division is:"<<r;
+        break;
+        
+        case 5:
+        cout<<"Exit the program";
+        break;
+        
+        default:
+        cout<<"invalid choice";
+        
+        
+        
+    }
+}
