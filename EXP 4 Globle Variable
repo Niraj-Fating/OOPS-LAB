@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int g=5;
+void function()
+{
+    cout<<"\nG="<<g;
+}
+int main()
+{
+    function();
+    g=10;
+    function();
+    return 0;
+}
