@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+class my
+{
+    public:
+    int num;
+
+    my(int num)
+    {
+        this-> num = num;
+        cout << "Number: " << num << endl;
+    }
+
+    my(const my &obj)
+    {
+        num = obj.num;
+        cout << "Copy constructor called, copied number is " << num << endl;
+    }
+};
+
+int main()
+{
+    my m(45);    
+    my num = m;  
+    return 0;
+}
