@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+class my
+{
+    public:
+    int num;
+    public:
+    my(int num)
+    {
+        cout<<"Number:"<<num;
+    }
+};
+int main()
+{
+    my m(45);
+    return 0;
+}
